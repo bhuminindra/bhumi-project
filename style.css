@@ -1,0 +1,76 @@
+body{
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+.box{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #0000001f;
+}
+h1{
+    font-weight: 650;
+    padding: 30px;
+}
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:inline-block;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 3px;
+    background-color: #cf4949;
+}
+button:hover{
+    color: #fff;
+    background-color: #800000 ;
+}
+.save, .edit{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: #348553;
+}
+.edit:hover{
+    color: #fff;
+    background-color: #225736 ;
+}
+.save:hover{
+    color: #fff;
+    background-color: #225736 ;
+}
+ table, th, td{
+    border: 2px solid #000;
+    border-collapse: collapse;   
+    padding: 8px;
+    margin: 12px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+ }
+
+ table{
+    width: 100%;
+ }
+ .stokfalse{
+    background-color: #cf4949;
+ }

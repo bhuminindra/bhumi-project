@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h1 Align="center">FORM DATA MASTER PRODUK</h1>
+        <form action="" id="productForm">
+            <label for="kodeProduk">Kode Produk</label>
+            <input type="text" id="kodeProduk" value="MD-01" disabled>
+            <label for="nameProduk">Nama Produk</label>
+            <input type="text" id="nameProduk" placeholder="Masukkan Nama Produk" required>
+            <label for="harga">Harga</label>
+            <input type="number" name="harga" id="harga" required>
+            <label for="satuan">Satuan</label>
+            <select type="number" id="satuan" required>
+                <option value="pcs">Pcs</option>
+                <option value="Gelas">Gelas</option>
+            </select>
+            <label for="kategori">Kategori</label>
+            <select name="kategori" id="kategori" required>
+                <option value="makanan">Makanan</option>
+                <option value="minuman">Minuman</option>
+            </select>
+            <label for="urlgambar">Url Gambar</label>
+            <input type="url" id="urlgambar" required>
+            <label for="stok">Stok Awal</label>
+            <input type="number" id="stok" required>
+        <button class="save" type="button" onclick="saveForm()">Simpan</button>
+        </form>
+    </div>
+    <section>
+        <table id="productTable">
+            <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Kode Produk</th>
+                        <th>Nama Produk</th>
+                        <th>Harga</th>
+                        <th>Satuan</th>
+                        <th>Kategori</th>
+                        <th>Gambar Produk</th>
+                        <th>Stok Produk</th>
+                        <th>Action</th>
+                    </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+    <script src="function.js"></script>
+</body>
+</html>
